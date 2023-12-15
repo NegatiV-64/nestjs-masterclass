@@ -1,4 +1,3 @@
-'use client';
 import * as DMPrimitive from '@radix-ui/react-dropdown-menu';
 import { Check, ChevronRight, Circle } from 'lucide-react';
 import type { ElementRef, ComponentPropsWithoutRef, HTMLAttributes } from 'react';

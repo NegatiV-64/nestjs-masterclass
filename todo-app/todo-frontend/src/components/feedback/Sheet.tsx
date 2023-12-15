@@ -1,4 +1,3 @@
-'use client';
 import { Close, Content, Description, Overlay, Portal, Root, Title, Trigger } from '@radix-ui/react-dialog';
 import { cva } from 'class-variance-authority';
 import { X } from 'lucide-react';

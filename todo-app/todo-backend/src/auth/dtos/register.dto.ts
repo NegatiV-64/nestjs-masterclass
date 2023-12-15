@@ -1,3 +1,5 @@
+import { BadRequestException } from '@nestjs/common';
+import { Transform } from 'class-transformer';
 import {
   IsNotEmpty,
   IsString,
@@ -5,7 +7,6 @@ import {
   Matches,
   NotContains,
 } from 'class-validator';
-
 export class RegisterDto {
   @IsString()
   @IsNotEmpty()
